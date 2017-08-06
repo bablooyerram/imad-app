@@ -11,3 +11,4 @@ function mover(){
 img.onclick = function(){
     var interval=setInterval(mover,50);
 };
+alert('are you a gay');
