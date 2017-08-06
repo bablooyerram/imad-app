@@ -6,7 +6,7 @@ var img = document.getElementById('bab');
 var mar =0;
 function mover(){
     mar=mar+1;
-    img.stle.marginLeft=mar+'px';
+    img.style.marginLeft=mar +'px';
 }
 img.onclick = function(){
     var interval=setInterval(mover,50);
